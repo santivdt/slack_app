@@ -1,4 +1,4 @@
--# Sending a Welcome Message to a New User 
+# Sending a Welcome Message to a New User 
 
 > :sparkles: *Updated December 2019: As we have introduced some new features, this tutorial and the code samples have been updated! All the changes from the previous version of this example, read the [DIFF.md](diff.md)*
 
@@ -38,5 +38,3 @@ The user can accept the Terms of Service using message buttons. If a user has be
 #### Enable Interactive Messages
 1. In the app settings, click on Interactive Messages
 1. Set the Request URL to your server or Glitch URL + `/interactive`
-# slack_app
-# slack_app
