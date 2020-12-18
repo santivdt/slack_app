@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/events.ts": {
+      "includeFiles": "db/**"
+    },
+    "api/interactive.ts": {
+      "includeFiles": "db/**"
+    },
+    "api/remind.ts": {
+      "includeFiles": "db/**"
+    }
+  }
+}
