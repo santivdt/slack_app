@@ -1,6 +1,13 @@
 import axios from "axios";
+import { join } from "path";
+import { readFileSync } from "fs";
 import { JsonDB } from "node-json-db";
+
 import payloads from "./payloads";
+
+const file = readFileSync(join(__dirname, "db", "users.json"), "utf8");
+
+console.log(JSON.parse(file));
 
 const db = new JsonDB("users", true, false);
 const apiUrl = "https://slack.com/api";
