@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/events.ts": {
+      "includeFiles": "/utils/users.json"
+    },
+    "api/interactive.ts": {
+      "includeFiles": "/utils/users.json"
+    },
+    "api/remind.ts": {
+      "includeFiles": "/utils/users.json"
+    }
+  }
+}
