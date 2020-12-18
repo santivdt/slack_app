@@ -20,5 +20,4 @@ temp*
 .nvmrc
 
 ### App-specific
-users.json
 .vercel
