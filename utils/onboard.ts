@@ -5,7 +5,7 @@ import { JsonDB } from "node-json-db";
 
 import payloads from "./payloads";
 
-const file = readFileSync(join(__dirname, "db", "users.json"), "utf8");
+const file = readFileSync(join(__dirname, "users.json"), "utf8");
 
 console.log(JSON.parse(file));
 
