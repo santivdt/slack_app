@@ -6,6 +6,7 @@ import { initialMessage } from "../utils/onboard";
 export default (req: NowRequest, res: NowResponse) => {
   switch (req.body.type) {
     case "url_verification":
+      console.log(req.body.challenge);
       res.send({ challenge: req.body.challenge });
       break;
 
